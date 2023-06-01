@@ -114,12 +114,6 @@ nav ul{
     position: relative;
 }
 
-.box::before{
-    content: "";
-    display: block;
-    padding-bottom: 5%;
-}
-
 .portofolio{
     /* 173, 216, 230 - add8e6 */
     background-color: lightblue;
@@ -130,6 +124,7 @@ nav ul{
 }
   
 .portofolio #pimg-luar{
+    /* transform: scale(0.7); */
     max-width: 70%;
     height: auto;
     object-fit: contain;
@@ -186,6 +181,10 @@ form{
 @media screen and (max-width: 472px) {
     *{
         font-size: small;
+    }
+
+    .box{
+        max-height: 200px;
     }
     
     .about-me .sbp .card{
