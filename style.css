@@ -108,6 +108,11 @@ nav ul{
 }
 
 /* PORTOFOLIO */
+.box{
+    max-width: 70%;
+    height: auto;
+}
+
 .portofolio{
     /* 173, 216, 230 - add8e6 */
     background-color: lightblue;
@@ -120,7 +125,7 @@ nav ul{
 .portofolio #pimg-luar{
     max-width: 70%;
     /* max-height: 70%; */
-    /* height: auto; */
+    height: auto;
     transition: all 0.5s ease-in-out;
 }
 
