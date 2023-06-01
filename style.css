@@ -120,7 +120,7 @@ nav ul{
 .portofolio #pimg-luar{
     max-width: 70%;
     max-height: 70%;
-    height: auto;
+    /* height: auto; */
     transition: all 0.5s ease-in-out;
 }
 
