@@ -19,12 +19,20 @@ nav ul{
     background-image: url("./assets/birds.gif");
     background-size: auto;
     background-repeat: repeat;
+    height: 100vh;
 }
 
-.cloud img{
+#wtp{
+    top: 50%;
+    left: 25%;
+    right: 25%;
+    transform: translate(0, -50%);
+}
+
+/* .cloud img{
     height: 350px;
     object-fit: cover;
-}
+} */
 
 .jump:hover{
     animation-name: jump;
